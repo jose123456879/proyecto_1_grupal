@@ -1,9 +1,11 @@
-def prob_11(palabra):
-	lista = list(palabra)
-	lista.split()
-	"".join(lista)
-	lista.reverse()
-	if palabra == lista:
-		print ("es palindromo")
+def prob_11(pal):
+	palabra = pal.split()
+	pal.split()
+	j = "".join(palabra)
+	d = palabra.reverse()
+	pal2=pal.split()
+	s = "".join(pal2)
+	if d == s:
+		return ("es palindromo")
 	else:
-		print ("no es palindromo")
+		return ("no es palindromo")
